@@ -1,0 +1,102 @@
+/* General Reset */
+html,
+body {
+   font-family: 'Comic Sans MS', cursive, sans-serif;
+   background: #ffffff;
+   color: #333333;
+   padding: 20px;
+   display: block;
+   overflow: auto;
+}
+
+/* Background Overlay */
+.overlay {
+   width: 100%;
+   height: 100%;
+   background: #ff00ff;
+   opacity: 0.5;
+}
+
+/* Login Container */
+.login-container {
+   width: 100%;
+   height: auto;
+   background: #f1f1f1;
+   border: 3px solid #ff0000;
+   padding: 10px;
+   display: block;
+   gap: 0;
+   box-shadow: none;
+}
+
+/* Left Section */
+.login-container>div:first-child {
+   max-width: 100%;
+   margin-bottom: 20px;
+   padding: 10px;
+}
+
+/* Logo */
+.logo span {
+   font-size: 36px;
+   color: #00ff00;
+   font-family: 'Times New Roman', serif;
+}
+
+.logo i {
+   color: #0000ff;
+   font-size: 40px;
+}
+
+/* Register Heading */
+.register>div:first-child {
+   font-size: 32px;
+   line-height: 2;
+   color: #ff0000;
+}
+
+.register>p {
+   font-size: 18px;
+   color: #444444;
+   line-height: 2;
+   margin-bottom: 10px;
+}
+
+/* Social Icons */
+.register .social a {
+   margin-right: 5px;
+   color: #444444;
+}
+
+/* Login Form */
+.form-login {
+   width: 100%;
+   padding: 10px;
+   background: #eeeeee;
+   border: 2px dotted #333333;
+}
+
+/* Form Heading */
+.form-login .heading {
+   font-size: 32px;
+   color: #ff0000;
+}
+
+/* Form Group */
+.form-login .form-group {
+   margin-top: 5px;
+}
+
+/* Sign Up Button */
+.form-login .form .sign-up button {
+   background: #ff0000;
+   color: #000000;
+   border: 2px solid #000000;
+   font-size: 18px;
+}
+
+/* Sign-Up Link */
+.sign-up a {
+   color: #ff00ff;
+   font-size: 18px;
+}
